@@ -70,6 +70,7 @@ Open the `Main.ipynb` file. Running the cells sequentially will:
 * Test the training pipeline.
 * Demonstrate text generation.
 
+```
 ---
 
 ### 2. Loading Pre-trained GPT-2 Weights

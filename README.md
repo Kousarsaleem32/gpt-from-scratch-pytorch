@@ -61,3 +61,18 @@ Start the Jupyter environment and open the main file:
 
 ```bash
 jupyter notebook
+
+Open the `Entire_Chatgpt.ipynb` file. Running the cells sequentially will:
+
+* Load the sample training text (`the-verdict.txt`).
+* Define and instantiate all model component classes.
+* Test the training pipeline.
+* Demonstrate text generation.
+
+### 2. Loading Pre-trained GPT-2 Weights
+
+The key highlight is loading the official GPT-2 weights, which allows the custom-built model to generate coherent text immediately.
+
+* Navigate to **"STEP 10: LOADING PRETRAINED WEIGHTS FROM OPENAI"** in the notebook.
+* Run the cells to download the checkpoint files for the GPT-2 Small (124M) model.
+* Execute the `load_weights_into_gpt` function to correctly map the downloaded weights to your `GPTModel` instance.

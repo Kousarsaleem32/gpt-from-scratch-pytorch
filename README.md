@@ -85,3 +85,7 @@ The key highlight is loading the official GPT-2 weights, which allows the custom
 
 Below is an example of the text generation output when using pre-trained weights:
 ![alt text](./Results_with_weights.png)
+
+## Discussion: The Impact of Transfer Learning
+
+The experimental results highlight the transformative power of **Transfer Learning**. Without pre-trained weights, the custom `GPTModel`, despite being structurally correct, generates text that is largely **incoherent, repetitive, and fails to maintain context**—a clear sign that the model's randomly initialized weights and limited training data are insufficient to learn the complexities of human language. In sharp contrast, immediately after loading the official 124M GPT-2 weights, the model's output shifts instantly to **grammatically correct and semantically coherent** text, plausibly continuing the input prompt. This success not only demonstrates the immense linguistic knowledge encoded during the original pre-training phase but, more importantly, serves as the **ultimate structural validation** of the custom PyTorch implementation, confirming that every component, from the **causal self-attention** to the layer configurations, perfectly mirrors the GPT-2 architecture.

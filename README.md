@@ -1,4 +1,4 @@
-# GPT Model Implementation from Scratch (PyTorch)
+# GPT-2 Model Implementation from Scratch (PyTorch)
 
 An end-to-end implementation of a Generative Pre-trained Transformer (GPT) model from scratch using PyTorch. This project is structured as a comprehensive educational resource that builds the entire transformer architecture, sets up a training environment, and includes a utility to load official pre-trained OpenAI GPT-2 weights for immediate coherent text generation.
 

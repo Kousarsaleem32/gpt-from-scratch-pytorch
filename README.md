@@ -79,6 +79,7 @@ Below is an example of the text generation output without using pre-trained weig
 
 The key highlight is loading the official GPT-2 weights, which allows the custom-built model to generate coherent text immediately.
 
+* Load the file (`gpt_download3.py`).
 * Navigate to **"STEP 10: LOADING PRETRAINED WEIGHTS FROM OPENAI"** in the notebook.
 * Run the cells to download the checkpoint files for the GPT-2 Small (124M) model.
 * Execute the `load_weights_into_gpt` function to correctly map the downloaded weights to your `GPTModel` instance.

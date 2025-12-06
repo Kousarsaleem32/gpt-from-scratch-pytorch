@@ -71,6 +71,8 @@ Open the `Main.ipynb` file. Running the cells sequentially will:
 * Demonstrate text generation.
 
 ```
+Below is an example of the text generation output:
+![alt text](./images/output_result.png)
 ---
 
 ### 2. Loading Pre-trained GPT-2 Weights

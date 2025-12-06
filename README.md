@@ -71,8 +71,8 @@ Open the `Main.ipynb` file. Running the cells sequentially will:
 * Demonstrate text generation.
 
 ```
-Below is an example of the text generation output:
-![alt text](./images/output_result.png)
+Below is an example of the text generation output without using pre-trained weights:
+![alt text](./images/Results_with_weights.png)
 ---
 
 ### 2. Loading Pre-trained GPT-2 Weights
@@ -82,3 +82,6 @@ The key highlight is loading the official GPT-2 weights, which allows the custom
 * Navigate to **"STEP 10: LOADING PRETRAINED WEIGHTS FROM OPENAI"** in the notebook.
 * Run the cells to download the checkpoint files for the GPT-2 Small (124M) model.
 * Execute the `load_weights_into_gpt` function to correctly map the downloaded weights to your `GPTModel` instance.
+
+Below is an example of the text generation output without using pre-trained weights:
+![alt text](./images/Results_without_weights.png)

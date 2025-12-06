@@ -48,7 +48,7 @@ source venv/bin/activate # On Windows, use `venv\Scripts\activate`
 # Install required packages
 # These packages are necessary for the implementation and the pre-trained weight loading utility
 pip install torch tiktoken numpy tqdm requests tensorflow>=2.15.0
-
+'''
 ---
 
 ## Usage

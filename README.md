@@ -48,7 +48,7 @@ source venv/bin/activate # On Windows, use `venv\Scripts\activate`
 # Install required packages
 # These packages are necessary for the implementation and the pre-trained weight loading utility
 pip install torch tiktoken numpy tqdm requests tensorflow>=2.15.0
-'''
+
 ---
 
 ## Usage
@@ -68,6 +68,8 @@ Open the `Main.ipynb` file. Running the cells sequentially will:
 * Define and instantiate all model component classes.
 * Test the training pipeline.
 * Demonstrate text generation.
+
+---
 
 ### 2. Loading Pre-trained GPT-2 Weights
 

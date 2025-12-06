@@ -50,6 +50,7 @@ source venv/bin/activate # On Windows, use `venv\Scripts\activate`
 pip install torch tiktoken numpy tqdm requests tensorflow>=2.15.0
 
 ---
+
 ## Usage
 
 The entire implementation and walkthrough are contained within a single Jupyter Notebook.

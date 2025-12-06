@@ -62,7 +62,7 @@ Start the Jupyter environment and open the main file:
 ```bash
 jupyter notebook
 
-Open the `Entire_Chatgpt.ipynb` file. Running the cells sequentially will:
+Open the `Main.ipynb` file. Running the cells sequentially will:
 
 * Load the sample training text (`the-verdict.txt`).
 * Define and instantiate all model component classes.

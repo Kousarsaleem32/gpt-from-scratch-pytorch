@@ -38,7 +38,7 @@ Clone the repository and install the necessary libraries. The notebook requires 
 
 ```bash
 # Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/Kousarsaleem32/gpt-from-scratch-pytorch.git
 cd gpt-from-scratch
 
 # Create a virtual environment (optional, but recommended)
